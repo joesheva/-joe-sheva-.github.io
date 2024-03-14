@@ -1,0 +1,493 @@
+
+body {
+  background-image: linear-gradient(#f4b0a7, #fff9d2);
+
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  width: 100%;
+}
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+  margin-left: 12px;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+
+
+.header {
+  padding: 1rem 7%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 100;   
+  background: #06060600;
+  opacity: 70%;
+}
+
+.joecv {
+  text-decoration: none;
+  float: center;
+  background-color: #080808;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 32px;
+
+
+}
+
+.joecv:hover {
+  background-image: linear-gradient(#fc9e92, #fff9d2);
+  
+}
+
+.joecv a {
+  text-decoration: none;
+}
+
+.joecv a h1 {
+  padding: 16px 35px;
+  text-decoration: none;
+  border: rgb(20, 19, 19) 1px solid;
+  border-radius: 35px;
+  letter-spacing: 2px;
+  color: #f6ecde;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.navbar {
+  padding: 22px;
+  height: 25px;
+}
+
+.navbar a {
+  position: sticky;
+  font-family: 'Permanent Marker', cursive;
+  color: #f6ecde;
+
+  padding: 10px;
+  align-content: left;
+  position: relative;
+  text-decoration: none;
+  left: 50;
+  right: 50;
+}
+.navbar .text {
+  font-size: 222px;
+}
+.navbar a:hover {
+  color: var(--btn-color);
+  text-decoration: underline;
+}
+
+.navbar.active {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.top {
+  width: 100%;
+  overflow: hidden;
+  height: 622px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.writing {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 66px;
+  color: rgb(239, 234, 234);
+  margin-top: 224px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+
+ margin-left: 22px;
+  margin-top: 172px;
+  margin-bottom: 22px;
+overflow: hidden;
+
+
+
+
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
+
+
+
+p {
+  text-align: center;
+  overflow: hidden;
+}
+.about {
+  color: rgb(213, 207, 207);
+ 
+  
+}
+.about h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(239, 234, 234);
+ }
+
+.back-drop {
+  height: 822px;
+  border-radius: 23px;
+  overflow: hidden;
+  background-image: url("images/reciepe.pdf");
+
+}
+
+.projects {
+  padding: 22px;
+}
+.back-frem {
+  width: 100%;
+  height: 80rem;
+  border-radius: 23px;
+  overflow: hidden;
+  display: flex;
+  float: center;
+  align-items: center;
+}
+  
+.back-frem .back-chang {
+  margin: 2px;
+  height: 221px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 23px;
+  position: relative;
+}
+
+img {
+    background-repeat: no-repeat;
+}
+
+.back-frem .back-chang img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+  
+.btn {
+  font-family: 'Permanent Marker', cursive;
+  align-content: center;
+  position: absolute;
+  bottom: 2px;
+  right: 22px;
+  background-color: #f6ecde;
+  color:#0e0d0d;
+  border-radius: 22px;
+  height: 92px;
+  width: 92px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.btn2 {
+  font-family: 'Permanent Marker', cursive;
+  align-content: center;
+  position: absolute;
+  bottom: 2px;
+  right: 122px;
+  background-color: #f6ecde;
+  color:#0f0f0f;
+  border-radius: 22px;
+  height: 92px;
+  width: 92px;
+  cursor: pointer;
+  visibility: hidden;
+  }
+
+.back-frem .back-chang:hover {
+  margin-bottom: 312px;
+  height: 535px;
+  width: 450%;
+  border: #fff 3px;
+}
+
+.front {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  background-color: antiquewhite;
+  font-family: 'Permanent Marker', cursive;
+  padding: 2px;
+}
+
+.back-chang:hover .front {
+  visibility: hidden;
+}
+
+.back-chang {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+  
+.img__description {
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  background-color: #f6ecde;
+  padding: 2px;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  height: 22px;
+  border-radius: 22px;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__description:hover {
+  pointer-events: none;
+}
+  
+.back-chang:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.back-chang:hover .btn  {
+  visibility: visible;
+  opacity: 1;
+}
+
+.back-chang:hover .btn2  {
+  visibility: visible;
+  opacity: 1;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hi-pic {
+  border-radius: 50%;
+  background-color:#f6ecde;
+  width: 372px;
+  border: 1px solid #080808;
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.hi-pic:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+  
+.about {
+  height: 118vh;
+}
+
+.about h1{
+  font-size: 42px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  color: rgb(239, 234, 234);
+}
+
+.hi-txt {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  text-align: right;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(13, 14, 13);
+  color: rgb(239, 234, 234);
+}
+
+.projects h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 42px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  color: #f6ecde;
+  text-align: center;
+}
+
+.contact {
+  height: 70vh;
+}
+
+.contact h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 42px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  color: #f6ecde;
+  text-align: center;
+}
+
+.socials {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 20px; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.location img {
+  height: 212px;
+  display: inline-block;
+}
+
+.location p {
+  font-size: 22px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #f6ecde;
+  text-align: center;
+}
+
+.linkedin img {
+  height: 212px;
+  display: inline-block;
+ 
+}
+
+.linkedin img:hover {
+  height: 296px;
+  content: url(images/linkedin2.pdf);
+  border: 3px dashed #080808;
+  border-radius: 50%;
+ 
+}
+
+
+.github img {
+  height: 212px;
+  display: inline-block
+}
+  
+.github img:hover {
+  height: 296px;
+  content: url(images/gitlogo2.pdf);
+  border: 3px dashed #080808;
+  border-radius: 50%;
+}
+
+.email img {
+  height: 212px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email p {
+  font-size: 22px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #f6ecde;
+  text-align: center;
+  text-transform: lowercase;
+}
+      
+.email img:hover {
+  height: 296px;
+  content: url(images/email2.pdf);
+  border: 3px dashed #080808;
+  border-radius: 50%;
+}
+
+
+@media (max-width:767px) {
+  .socials {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+.linkedin2 {
+  width: 122px;
+  height: 122px;
+}
+
+.git2 {
+  width: 122px;
+  height: 122px;
+}
+.email2 {
+  width: 122px;
+  height: 122px;
+}
+.hi-txt {
+  font-size: 32px;
+}
+.writing {
+  margin-top: 324px;
+  font-size: 38px;
+  border: none;
+}
+.about {
+  height: 1114px;
+}
+.top {
+
+  height: 582px;
+}
+.btn {
+  height: 46px;
+  right: 3px;
+ width: 76px;
+}
+.btn2 {
+  height: 46px;
+ left: 3px;
+ width: 76px;
+}
+
+}
