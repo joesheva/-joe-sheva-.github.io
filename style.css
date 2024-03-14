@@ -438,7 +438,7 @@ img {
       
 .email img:hover {
   height: 296px;
-  content: url(images/email2.pdf);
+  content: url(email2.pdf);
   border: 3px dashed #080808;
   border-radius: 50%;
 }
