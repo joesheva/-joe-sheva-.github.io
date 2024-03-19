@@ -170,7 +170,7 @@ p {
   height: 822px;
   border-radius: 23px;
   overflow: hidden;
-  background-image: url("reciepe.pdf");
+  background-image: url(reciepe.pdf);
 
 }
 
