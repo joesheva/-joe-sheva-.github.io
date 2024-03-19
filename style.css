@@ -401,7 +401,7 @@ img {
 
 .linkedin img:hover {
   height: 296px;
-  content: url(images/linkedin2.pdf);
+  content: url(linkedin2.pdf);
   border: 3px dashed #080808;
   border-radius: 50%;
  
@@ -415,7 +415,7 @@ img {
   
 .github img:hover {
   height: 296px;
-  content: url(images/gitlogo2.pdf);
+  content: url(gitlogo2.pdf);
   border: 3px dashed #080808;
   border-radius: 50%;
 }
