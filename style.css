@@ -528,7 +528,7 @@ a {
     height: 72px;
     width: 72px;
     cursor: pointer;
-    margin-top:252px;
+    margin-top:300px;
     margin-left: 32px;
 
 
@@ -539,7 +539,7 @@ a {
     align-content: center;
     position: absolute;
  gap: 111px;
-    margin-top: 252px;
+    margin-top: 300px;
     color: #f6ecde;
     border-radius: 122px;
     height: 72px;
@@ -574,7 +574,7 @@ a {
 .circular-slider {
    /*picture move down*/
 
-   height:60em;
+   height:63em;
 
 
     color: rgb(198, 191, 191);
