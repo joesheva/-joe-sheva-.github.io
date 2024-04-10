@@ -54,17 +54,19 @@ body {
 
 }
 
-.joecv:hover {
-  background-image: linear-gradient(#fc9e92, #fff9d2);
-  
-}
+ .joecv:hover {
+    background-color: #f6ecde;
+    color: #080808;
+    border: rgb(20, 19, 19) 1px solid;
+    
+  }
 
 .joecv a {
   text-decoration: none;
 }
 
 .joecv a h1 {
-  padding: 16px 35px;
+
   text-decoration: none;
   border: rgb(20, 19, 19) 1px solid;
   border-radius: 35px;
