@@ -77,10 +77,7 @@ function scrollFunction() {
     document.getElementById("header").style.backgroundColor = "";
     document.getElementById("navbar").style.padding = "20px 10px";
   
-    document.getElementById("text").style.fontSize = "1rem";
-    document.getElementById("text1").style.fontSize = "1rem";
-    document.getElementById("text2").style.fontSize = "1rem";
-    document.getElementById("text3").style.fontSize = "1rem";
+ 
     document.getElementById("text").style.color = "#0f0f10";
     document.getElementById("text1").style.color = "#0f0f10";
     document.getElementById("text2").style.color = "#0f0f10";
@@ -91,10 +88,8 @@ function scrollFunction() {
     document.getElementById("text1").style.color = "#f6ecde";
     document.getElementById("text2").style.color = "#f6ecde";
     document.getElementById("text3").style.color = "#f6ecde";
-    document.getElementById("text").style.fontSize = "1rem";
-    document.getElementById("text1").style.fontSize = "1rem";
-    document.getElementById("text2").style.fontSize = "1rem";
-    document.getElementById("text3").style.fontSize = "1rem";
+
+    
     document.getElementById("header").style.backgroundColor = "#0f0f10";
   }
 }
