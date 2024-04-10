@@ -245,27 +245,10 @@ img {
   border: #fff 3px;
 }
 
-.front {
-  font-size: 12px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  background-color: antiquewhite;
-  font-family: 'Permanent Marker', cursive;
-  padding: 2px;
-}
 
-.back-chang:hover .front {
-  visibility: hidden;
-}
 
-.back-chang {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
+
+
   
 .img__description {
   position: absolute;
@@ -449,7 +432,7 @@ img {
   }
 .joecv a h1 {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 29px;
     border-radius: 35px;
 
     color: #f6ecde;
@@ -473,7 +456,7 @@ img {
   height: 122px;
 }
 .hi-txt {
-  font-size: 12px;
+  font-size: 20px;
 }
 .writing {
   margin-top: 324px;
