@@ -12,7 +12,7 @@ const rotationValues = [-65, -40, -20, 0, 20, 40, 65];
 
 //image names to add for each menu item
 const images = [
-    'taskcopy.png', 'kitcopy.png', "reciepecopy.png", "ordercopy.png","Untitled-1.png", "Untitled-5copy.png", "budgetcopy.png"
+    'taskcopy', 'kitcopy', "reciepecopy", "ordercopy","Untitled-1", "Untitled-5copy", "budgetcopy"
 ];
 
 //current menu item index
