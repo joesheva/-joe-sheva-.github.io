@@ -323,10 +323,7 @@ img {
   overflow: hidden;
 }
 
-.hi-pic:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
+
   
 .about {
   height: 118vh;
