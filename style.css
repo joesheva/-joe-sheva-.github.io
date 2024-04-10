@@ -83,7 +83,7 @@ body {
   position: sticky;
   font-family: 'Permanent Marker', cursive;
   color: #f6ecde;
-  font-size: 23px;
+
 
   align-content: left;
   position: relative;
@@ -91,9 +91,7 @@ body {
   left: 50;
   right: 50;
 }
-.navbar .text {
-  font-size: 222px;
-}
+
 .navbar a:hover {
   color: var(--btn-color);
   text-decoration: underline;
