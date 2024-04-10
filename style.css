@@ -421,7 +421,7 @@ img {
 }
 
 
-@media (max-width:480px) {
+@media (max-width:767px) {
   .socials {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;
