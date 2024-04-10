@@ -84,12 +84,11 @@ body {
   font-family: 'Permanent Marker', cursive;
   color: #f6ecde;
  font-size: 18px;
-white-space:nowrap;
-  align-content: left;
+white-space: nowrap;
+  align-content: center;
   position: relative;
-  text-decoration: none;
-  left: 50;
-  right: 50;
+
+ width:100%;
 }
 
 .navbar a:hover {
