@@ -478,12 +478,11 @@ img {
  left: 3px;
  width: 76px;
 }
-.navbar {
-  width:100%;
-}
+
 
 .navbar a {
-    font-size: 10px;
+  white-space:nowrap;
+    font-size: 4px;
   }
 }
 body {
