@@ -83,7 +83,7 @@ body {
   position: sticky;
   font-family: 'Permanent Marker', cursive;
   color: #f6ecde;
-
+ font-size: 25px;
 
   align-content: left;
   position: relative;
@@ -480,9 +480,8 @@ img {
 }
 
 .navbar a {
-  font-size:2px
-
-}
+    font-size: 16px;
+  }
 }
 body {
     font-family: sans-serif;
