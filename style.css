@@ -491,7 +491,33 @@ img {
 }
 
 }
+body {
+    font-family: sans-serif;
+    background-color: #333;
+}
+a {
 
+    margin-right: 62px;
+}
+
+.circular-slider .container {
+    margin-bottom: 222px;
+}
+
+.html-logo {
+    height: 43px;
+    width: 83px;
+}
+
+.css-logo {
+    height: 43px;
+    width: 83px;
+}
+
+.jscript-logo {
+    height: 43px;
+    width: 83px;
+}
 .btn4 {
     font-family: 'Permanent Marker', cursive;
     align-content: center;
