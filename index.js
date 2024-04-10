@@ -91,10 +91,10 @@ function scrollFunction() {
     document.getElementById("text1").style.color = "#f6ecde";
     document.getElementById("text2").style.color = "#f6ecde";
     document.getElementById("text3").style.color = "#f6ecde";
-    document.getElementById("text").style.fontSize = "1rem";
-    document.getElementById("text1").style.fontSize = "1rem";
-    document.getElementById("text2").style.fontSize = "1rem";
-    document.getElementById("text3").style.fontSize = "1rem";
+    document.getElementById("text").style.fontSize = "1.7rem";
+    document.getElementById("text1").style.fontSize = "1.7rem";
+    document.getElementById("text2").style.fontSize = "1.7rem";
+    document.getElementById("text3").style.fontSize = "1.7rem";
     document.getElementById("header").style.backgroundColor = "#0f0f10";
   }
 }
@@ -117,5 +117,3 @@ divs.forEach((i) => {
 });
 
 
-var spanWidth = $('#text span').width();
-$('#text').animate( { width: spanWidth }, 3000 );
