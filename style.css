@@ -452,7 +452,11 @@ img {
   width: 122px;
   height: 122px;
 }
-
+  
+.header {
+  width: 100%;
+}
+  
 .git2 {
   width: 122px;
   height: 122px;
@@ -487,7 +491,11 @@ img {
  width: 76px;
 }
 
+.navbar a {
+  font-size:2px
+
 }
+
 body {
     font-family: sans-serif;
     background-color: #333;
