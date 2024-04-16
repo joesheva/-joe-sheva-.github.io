@@ -415,25 +415,25 @@ img {
     color: #f6ecde;
    
   }
-.linkedin2 {
-  width: 122px;
-  height: 122px;
+.linkedin img {
+  width: 100px;
+  height: 100px;
 }
   
 .header {
   width: 100%;
 }
   
-.git2 {
-  width: 122px;
-  height: 122px;
+.github  img{
+  width: 100px;
+  height: 100px;
 }
-.email2 {
-  width: 122px;
-  height: 122px;
+.email img {
+  width: 100px;
+  height: 100px;
 }
 .hi-txt {
-  font-size: 20px;
+  font-size: 28px;
 }
 .writing {
   margin-top: 324px;
