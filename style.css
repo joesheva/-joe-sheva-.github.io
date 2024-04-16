@@ -403,6 +403,127 @@ img {
 
 @media (max-width:600px) {
 
+.circular-slider {
+   /*picture move down*/
+
+   height:33em;
+
+
+    color: rgb(198, 191, 191);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    z-index: 0;
+}
+
+.text:not(:nth-child(3)) {
+    display: none;
+}
+
+.text h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(239, 234, 234);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 12px;
+    margin: 0.5em 0;
+}
+
+.text p {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(239, 234, 234);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    font-size: 10px;
+   
+}
+
+.slider {
+    position: absolute;
+
+    bottom: -40vw;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+.slider .img {
+    width: 21vw;
+    height: 21vw;
+    max-width: 1200px;
+    max-height: 1200px;
+    background-image:url(reciepecopy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 300ms;
+    border-radius: 50%;
+}
+
+.indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height:40vw;
+    max-width: 700px;
+    max-height: 700px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    transition: transform 300ms;
+}
+
+.indicator::before {
+    content: "";
+    
+    position: absolute;
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1em;
+    height: 1em;
+    border: rgb(20, 19, 19) 1px solid;
+    background-color: #f6f3f3;
+    border-radius: 50%;
+}
+
+.menu, .menu div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45vw;
+    height: 45vw;
+    max-width: 750px;
+    max-height: 750px;
+    border-radius: 50%;
+
+    
+
+}
+
+.menu span {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(239, 234, 234);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: 200ms;
+    text-align: center;
+    font-size: 12px;
+  
+
+}
+
+.menu span:hover {
+    font-size: 12px;
+
   .text p { 
 
     font-size: 10px;
