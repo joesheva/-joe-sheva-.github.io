@@ -31,7 +31,7 @@ body {
 
 
 .header {
-  padding: 1rem 7%;
+
   position: fixed;
   left: 0;
   right: 0;
@@ -124,26 +124,6 @@ overflow: hidden;
 
 
 
-}
-
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 40% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-}
-
-@keyframes cssAnimation {
-  to   { visibility: visible; }
 }
 
 
