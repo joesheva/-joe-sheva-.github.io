@@ -415,6 +415,8 @@ img {
   .socials {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    overflow:hidden;
 
   }
 .joecv a h1 {
@@ -429,6 +431,14 @@ img {
   width: 100px;
   height: 100px;
 }
+
+.linkedin img:hover {
+  height:150px;
+  content: url(linkedin2.png);
+  border: 3px dashed #080808;
+  border-radius: 50%;
+ 
+}
   
 .header {
   width: 100%;
@@ -438,10 +448,26 @@ img {
   width: 100px;
   height: 100px;
 }
+
+.github img:hover {
+  height: 150px;
+  content: url(gitlogo2.png);
+  border: 3px dashed #080808;
+  border-radius: 50%;
+}
+  
 .email img {
   width: 100px;
   height: 100px;
 }
+
+  .email img:hover {
+  height: 150px;
+  content: url(email2.png);
+  border: 3px dashed #080808;
+  border-radius: 50%;
+}
+
 .hi-txt {
   font-size: 28px;
 }
@@ -473,7 +499,7 @@ img {
 
 .navbar a {
   white-space:nowrap;
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 body {
