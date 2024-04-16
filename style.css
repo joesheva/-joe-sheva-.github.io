@@ -399,18 +399,9 @@ img {
   border: 3px dashed #080808;
   border-radius: 50%;
 }
-@media (min-width:200px) {
-    .navbar {
-    width: 100%;
-  }
 
-.navbar a {
-  white-space:nowrap;
-    font-size: 10px;
-  }
-}
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   .socials {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;
