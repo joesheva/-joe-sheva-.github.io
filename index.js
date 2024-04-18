@@ -1,4 +1,5 @@
 
+
 //Get elements from the DOM 
 const slider = document.querySelector(".circular-slider");
 const image = document.querySelector(".slider .img");
@@ -113,3 +114,19 @@ divs.forEach((i) => {
 });
 
 
+var today = new Date();
+var time = today.getHours();
+var greet;
+
+if (time > 16) {
+  greet = 'Good evening!';
+} else if (time > 11) {
+  greet = 'Good afternoon!';
+} else if (time >= 0) {
+  greet = 'Good morning';
+} else {
+  greet = 'yo shits broken yo!';
+}
+
+var show = document.getElementById('message');
+show.textContent = greet;
