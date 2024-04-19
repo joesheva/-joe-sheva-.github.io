@@ -14,7 +14,7 @@ const rotationValues = [-65, -40, -20, 0, 20, 40, 65];
 
 //image names to add for each menu item
 const images = [
-    'taskcopy', 'kitcopy', "reciepecopy", "ordercopy","Untitled-1", "Untitled-5copy", "budgetcopy"
+    'taskcopy.png', 'kitcopy', "reciepecopy", "ordercopy","Untitled-1", "Untitled-5copy", "budgetcopy"
 ];
 
 //current menu item index
@@ -34,7 +34,7 @@ menuItems.forEach((menuItem, i) => {
     //add a click event to each menu item
     menuItem.addEventListener("click", () => {
         //add the image url to the image for each menu tiem
-        image.style.backgroundImage = images[i] + ".png)";
+        image.style.backgroundImage = images[i];
         //add the colors for each menu item
 
         /*create the short counter-rotation
