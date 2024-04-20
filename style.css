@@ -280,17 +280,27 @@ img {
   height: 200px;
   width: 257px;
 }
-    .des-icons {
+.html-logo {
+      height: 43px;
+      width: 83px;
+  }
+  
+  .css-logo {
+      height: 43px;
+      width: 83px;
+  }
+  
+  .jscript-logo {
+      height: 43px;
+      width: 83px;
+  }
+    .html-logo .css-logo .jscript-logo {
     position: absolute;
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
     top: 90%;
     left: 50%;
     overflow: hidden;
     left: 0;
     right: 0;
-
-    padding: 2px;
     pointer-events: none;
     visibility: hidden;
     opacity: 0;
@@ -299,11 +309,11 @@ img {
     transition: opacity .2s, visibility .2s;
   }
   
-  .des-icons:hover {
+  . .html-logo .css-logo .jscript-logo:hover {
     pointer-events: none;
   }
     
-  .back-chang:hover .des-icons {
+  .back-chang:hover  .html-logo .css-logo .jscript-logo {
     visibility: visible;
     opacity: 1;
   }
@@ -409,20 +419,7 @@ img {
   color: #f6ecde;
   text-align: center;
 }
-  .html-logo {
-      height: 43px;
-      width: 83px;
-  }
   
-  .css-logo {
-      height: 43px;
-      width: 83px;
-  }
-  
-  .jscript-logo {
-      height: 43px;
-      width: 83px;
-  }
 .socials {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
