@@ -66,3 +66,6 @@ if (time > 16) {
 
 var show = document.getElementById('message');
 show.textContent = greet;
+
+var show = document.getElementById('message');
+show.textContent = greet;
