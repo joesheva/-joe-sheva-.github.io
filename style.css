@@ -383,7 +383,20 @@ img {
   color: #f6ecde;
   text-align: center;
 }
-
+  .html-logo {
+      height: 43px;
+      width: 83px;
+  }
+  
+  .css-logo {
+      height: 43px;
+      width: 83px;
+  }
+  
+  .jscript-logo {
+      height: 43px;
+      width: 83px;
+  }
 .socials {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
