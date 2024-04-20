@@ -8,7 +8,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 105 || document.documentElement.scrollTop > 105) {
     document.getElementById("header").style.backgroundColor = "";
-    document.getElementById("navbar").style.padding = "20px 10px";
+   
   
 
   
@@ -17,7 +17,7 @@ function scrollFunction() {
     document.getElementById("text2").style.color = "#0f0f10";
     document.getElementById("text3").style.color = "#0f0f10";
   } else {
-    document.getElementById("navbar").style.padding = "50px 10px";
+
     document.getElementById("text").style.color = "#f6ecde";
     document.getElementById("text1").style.color = "#f6ecde";
     document.getElementById("text2").style.color = "#f6ecde";
