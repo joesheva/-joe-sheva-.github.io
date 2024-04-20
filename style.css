@@ -171,7 +171,7 @@ p {
   height: 822px;
   border-radius: 23px;
   overflow: hidden;
-  background-image: url("images/reciepe.pdf");
+  background-image: url("reciepecopy.png");
 
 }
 
@@ -415,7 +415,7 @@ img {
 
 .linkedin img:hover {
   height: 296px;
-  content: url(images/linkedin2.pdf);
+  content: url(linkedin2.png);
   border: 3px dashed #080808;
   border-radius: 50%;
  
@@ -429,7 +429,7 @@ img {
   
 .github img:hover {
   height: 296px;
-  content: url(images/gitlogo2.pdf);
+  content: url(gitlogo2.png);
   border: 3px dashed #080808;
   border-radius: 50%;
 }
@@ -452,7 +452,7 @@ img {
       
 .email img:hover {
   height: 296px;
-  content: url(images/email2.pdf);
+  content: url(email2.png);
   border: 3px dashed #080808;
   border-radius: 50%;
 }
