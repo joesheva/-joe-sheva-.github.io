@@ -294,29 +294,7 @@ img {
       height: 43px;
       width: 83px;
   }
-    .html-logo .css-logo .jscript-logo {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    overflow: hidden;
-    left: 0;
-    right: 0;
-    pointer-events: none;
-    visibility: hidden;
-    opacity: 0;
-    height: 122px;
-    border-radius: 22px;
-    transition: opacity .2s, visibility .2s;
-  }
   
-  . .html-logo .css-logo .jscript-logo:hover {
-    pointer-events: none;
-  }
-    
-  .back-chang:hover  .html-logo .css-logo .jscript-logo {
-    visibility: visible;
-    opacity: 1;
-  }
 .img__description {
   position: absolute;
   font-family: 'Permanent Marker', cursive;
