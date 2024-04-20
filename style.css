@@ -280,7 +280,33 @@ img {
   height: 200px;
   width: 257px;
 }
+    .des-icons {
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    background-color: #f6ecde;
+    padding: 2px;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+    height: 122px;
+    border-radius: 22px;
+    transition: opacity .2s, visibility .2s;
+  }
   
+  .des-icons:hover {
+    pointer-events: none;
+  }
+    
+  .back-chang:hover .des-icons {
+    visibility: visible;
+    opacity: 1;
+  }
 .img__description {
   position: absolute;
   font-family: 'Permanent Marker', cursive;
