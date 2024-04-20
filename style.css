@@ -468,21 +468,33 @@ img {
   .socials {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;
+    overflow:hidden;
 
   }
-
+.linkedin {
+  width:62px;
+  height:62px;
+}
+.github{
+  width:62px;
+  height:62px;
+}
+.email {
+  width:62px;
+  height:62px;
+}
 .linkedin2 {
-  width: 122px;
-  height: 122px;
+  width: 62px;
+  height: 62px;
 }
 
 .git2 {
-  width: 122px;
-  height: 122px;
+  width: 62px;
+  height: 62px;
 }
 .email2 {
-  width: 122px;
-  height: 122px;
+  width: 62px;
+  height: 62px;
 }
 .hi-txt {
   font-size: 32px;
