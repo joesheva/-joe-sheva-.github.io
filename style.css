@@ -458,7 +458,7 @@ img {
 }
 
 
-@media (max-width:767px) {
+@media (max-width:600px) {
   .socials {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -503,5 +503,6 @@ img {
  left: 3px;
  width: 76px;
 }
-
+.navbar a {
+  font-size:8px;
 }
