@@ -287,9 +287,7 @@ img {
   text-align: center;
   top: 50%;
   left: 50%;
-  overflow: hidden;
-  left: 0;
-  right: 0;
+
   background-color: #f6ecde;
   padding: 2px;
   pointer-events: none;
