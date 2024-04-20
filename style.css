@@ -460,7 +460,7 @@ img {
 
 @media (max-width:600px) {
   .joecv h1 {
-  font-size: 12px;
+  font-size: 20px;
   }
   .hi-txt {
     font-size:20px;
@@ -471,15 +471,15 @@ img {
     overflow:hidden;
 
   }
-.linkedin {
+.linkedin2 {
   width:62px;
   height:62px;
 }
-.github{
+.github2{
   width:62px;
   height:62px;
 }
-.email {
+.email2 {
   width:62px;
   height:62px;
 }
@@ -496,9 +496,7 @@ img {
   width: 62px;
   height: 62px;
 }
-.hi-txt {
-  font-size: 32px;
-}
+
 .writing {
   margin-top: 324px;
   font-size: 38px;
