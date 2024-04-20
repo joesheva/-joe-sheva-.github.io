@@ -459,6 +459,12 @@ img {
 
 
 @media (max-width:600px) {
+  .joecv h1 {
+  font-size: 12px;
+  }
+  .hi-txt {
+    font-size:20px;
+  }
   .socials {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;
