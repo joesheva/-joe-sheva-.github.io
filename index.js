@@ -34,7 +34,7 @@ menuItems.forEach((menuItem, i) => {
     //add a click event to each menu item
     menuItem.addEventListener("click", () => {
         //add the image url to the image for each menu tiem
-        image.style.backgroundImage = "url(main/" + images[i] + ".png)";
+        image.style.backgroundImage = "(https://github.com/joesheva/joesheva.github.io/tree/main" + images[i] + ".png)";
         //add the colors for each menu item
 
         /*create the short counter-rotation
