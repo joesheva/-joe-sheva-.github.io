@@ -464,20 +464,17 @@ img {
 
 @media (max-width:600px) {
       .btn {
-  height: 42px;
-  width: 42px;
+  height: 22px;
+  width: 22px;
 }
 
 .btn2 {
-  height: 42px;
-  width: 42px;
+  height: 22px;
+  width: 22px;
   }
   .img__description {
-  font-size:18px;
+  font-size:10px;
   }
-.back-frem .back-chang:hover {
-  width: 1450px;
-}
   .joecv h1 {
   font-size: 20px;
   }
