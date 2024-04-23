@@ -27,17 +27,16 @@ function scrollFunction() {
   }
 }
 
-
 var today = new Date();
 var time = today.getHours();
 var greet;
 
 if (time > 16) {
-  greet = 'Good Evening!\nIam Joseph Hughes\nA self taught web designer';
+  greet = 'Good evening!';
 } else if (time > 11) {
-  greet = 'Good afternoon!\nIam Joseph Hughes\nA self taught web designer';
+  greet = 'Good afternoon!';
 } else if (time >= 0) {
-  greet = 'Good morning!\nIam Joseph Hughes A self taught web designer';
+  greet = 'Good morning';
 } else {
   greet = 'yo shits broken yo!';
 }
@@ -45,8 +44,6 @@ if (time > 16) {
 var show = document.getElementById('message');
 show.textContent = greet;
 
-var show = document.getElementById('message');
-show.textContent = greet;
 const divs = document.querySelectorAll(".back-chang");
 const toolbar = document.querySelector(".toolbar");
 const backDrop = document.querySelector("#back-drop");
