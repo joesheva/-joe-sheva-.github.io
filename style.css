@@ -510,10 +510,7 @@ img {
   width: 62px;
   height: 62px;
 }
-.front {
-        writing-mode: tb-rl;
-        transform: rotate(-180deg);
-    }
+
 .writing {
   margin-top: 184px;
   font-size: 38px;
