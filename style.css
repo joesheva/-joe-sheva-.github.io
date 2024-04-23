@@ -299,7 +299,7 @@ img {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  height: 222px;
+  height: 252px;
   border-radius: 22px;
   transition: opacity .2s, visibility .2s;
 }
@@ -474,6 +474,7 @@ img {
   }
   .img__description {
   font-size:10px;
+      height: 272px;
   }
   .joecv h1 {
   font-size: 20px;
