@@ -525,16 +525,7 @@ img {
 
   height: 582px;
 }
-.btn {
-  height: 46px;
-  right: 3px;
- width: 76px;
-}
-.btn2 {
-  height: 46px;
- left: 3px;
- width: 76px;
-}
+
 .navbar a {
   font-size:8px;
 }
