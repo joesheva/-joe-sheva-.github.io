@@ -473,11 +473,14 @@ img {
 
 
 @media (max-width:600px) {
+  .back-chang {
+    width:455px;
+  }
   .joecv h1 {
   font-size: 20px;
   }
   .hi-txt {
-    font-size:20px;
+    font-size:28px;
   }
   .socials {
     display: grid;
