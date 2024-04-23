@@ -33,11 +33,11 @@ var time = today.getHours();
 var greet;
 
 if (time > 16) {
-  greet = 'Good Evening!Iam Joseph Hughes A self taught web designer';
+  greet = 'Good Evening!\nIam Joseph Hughes\nA self taught web designer';
 } else if (time > 11) {
-  greet = 'Good afternoon!Iam Joseph Hughes A self taught web designer';
+  greet = 'Good afternoon!\nIam Joseph Hughes\nA self taught web designer';
 } else if (time >= 0) {
-  greet = 'Good morning! Iam Joseph Hughes A self taught web designer';
+  greet = 'Good morning!\nIam Joseph Hughes A self taught web designer';
 } else {
   greet = 'yo shits broken yo!';
 }
