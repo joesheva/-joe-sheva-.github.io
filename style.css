@@ -473,9 +473,21 @@ img {
 
 
 @media (max-width:600px) {
-  .back-chang {
-    width:455px;
+      .btn {
+  height: 42px;
+  width: 42px;
+}
+
+.btn2 {
+  height: 42px;
+  width: 42px;
   }
+  .img__description {
+  font-size:18px;
+  }
+.back-frem .back-chang:hover {
+  width: 450px;
+}
   .joecv h1 {
   font-size: 20px;
   }
