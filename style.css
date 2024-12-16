@@ -1,533 +1,679 @@
-
-
 body {
-  background-image: linear-gradient(#f4b0a7, #fff9d2);
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); /* Gradient background */
 
-  background-repeat: no-repeat;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  width: 100%;
-}
-
-  .wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-    display: inline-block;
-    margin-left: 12px;
-  }
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-
-
-
-.header {
-  padding: 1rem 7%;
-  position: fixed;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  z-index: 100;   
-  background: #06060600;
-  opacity: 70%;
-}
-
-.joecv {
-  text-decoration: none;
-  float: center;
-  background-color: #080808;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 32px;
-
-
-}
-
-.joecv:hover {
-  background-image: linear-gradient(#fc9e92, #fff9d2);
   
-}
-
-.joecv a {
-  text-decoration: none;
-}
-
-.joecv a h1 {
-  padding: 16px 35px;
-  text-decoration: none;
-  border: rgb(20, 19, 19) 1px solid;
-  border-radius: 35px;
-  letter-spacing: 2px;
-  color: #f6ecde;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
-
-.navbar {
-  padding: 22px;
-  height: 25px;
-}
-
-.navbar a {
-  position: sticky;
-  font-family: 'Permanent Marker', cursive;
-  color: #f6ecde;
-
-  padding: 10px;
-  align-content: left;
-  position: relative;
-  text-decoration: none;
-  left: 50;
-  right: 50;
-}
-.navbar .text {
-  font-size: 222px;
-}
-.navbar a:hover {
-  color: var(--btn-color);
-  text-decoration: underline;
-}
-
-.navbar.active {
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
-
-.top {
-  width: 100%;
-  overflow: hidden;
-  height: 622px;
-  margin-left: auto;
-  margin-right: auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    width: 100%;
   }
-
-.writing {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 46px;
-  color: rgb(239, 234, 234);
-  margin-top: 224px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-text-align:center;
- margin-left: 22px;
-  margin-top: 172px;
-  margin-bottom: 22px;
-overflow: hidden;
+  
+    .wave {
+      animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
+      animation-iteration-count: infinite;  /* Never stop waving :) */
+      transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+      display: inline-block;
+margin-left: 370px;
 
 
+    }
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
+  body {
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+    color: #f6ecde;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+   }
+   
+   .animation {
+      vertical-align: sub;
+      height: 2em;
+      overflow: hidden;
+        font-size: 87px;
+      line-height: 2em;
+      text-align: center;
+      font-size: 43px;
+      color: #f6ecde;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+
+   }
+   
+  ul {
+    animation: animation 15s infinite;
+    padding: 0;
+    margin-top: -0.55em;
+    list-style: none;
+    text-align: center;
 
 
+
+  }
+  
+  @keyframes animation {
+      0%        { margin-top: -0.55em }
+      5%        { margin-top: -1.55em }
+      12.5%     { margin-top: -2.54em }
+      25%       { margin-top: -4.55em }
+      37.5%     { margin-top: -6.55em }
+      50%       { margin-top: -8.5em }
+      62.5%     { margin-top: -6.55em }
+      75%       { margin-top: -4.55em }
+      87.5%     { margin-top: -2.54em }
+      100%      { margin-top: -0.55em }
+  }
+  
+  .header {
+    padding: 1rem 7%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 100;   
+    background: #06060600;
+    opacity: 70%;
+    width:60%;
+    text-align:center;
+    margin: auto;
+  }
+  
+  .joecv {
+    text-decoration: none;
+    float: center;
+    background-color: #080808;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+    width: 60%;
+  
+  }
+  
+  .joecv:hover {
+    background-color: #f6ecde;
+    
+  }
+  
+  .joecv a {
+    text-decoration: none;
+  }
+  
+  .joecv a p {
+    padding: 16px 35px;
+    text-decoration: none;
+    border: rgb(20, 19, 19) 1px solid;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    color: #f6ecde;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 32px;
+  }
+  
+  .navbar {
+    padding: 22px;
+    height: 25px;
+  }
+  
+  .navbar a {
+    position: sticky;
+    font-family: 'Permanent Marker', cursive;
+    color: #f6ecde;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding: 10px;
+    align-content: left; 
+    position: relative;
+    text-decoration: none;
+    left: 50;
+    right: 50;
+
+  }
+  .navbar .text {
+    font-size: 222px;
+  }
+ 
+#text:hover {
+    text-decoration: overline;
 }
+ #text1:hover {
+    text-decoration: underline;
+  }
+  #text2:hover {
+    text-decoration: overline;
+  }
+  #text3:hover {
+    text-decoration: underline;
+  } 
+  .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  
+  .top {
+    width: 100%;
+    overflow: hidden;
+    
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  .writing {
+    font-family: 'Permanent Marker', cursive;
+    color: #f6ecde;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 42px;
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 40% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-}
-
-@keyframes cssAnimation {
-  to   { visibility: visible; }
-}
-
-
-
-p {
-  text-align: center;
+    margin-top: 224px;
+   
+  text-align:center;
+   margin-left: 22px;
+    margin-top: 172px;
+    margin-bottom: 212px;
   overflow: hidden;
-}
-.about {
-  color: rgb(213, 207, 207);
+
+  
+  
+  
+  
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+  }
+  
+  @keyframes cssAnimation {
+    to   { visibility: visible; }
+  }
+  
+  
+  
+  p {
+    text-align: center;
+    overflow: hidden;
+  }
  
   
+
+  
+ 
+    
+
+  
+  
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hi-pic {
+    border-radius: 50%;
+    background-color:#f6ecde;
+    width: 372px;
+    border: 1px solid #080808;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  
+ ƒ
+    
+  .about {
+    height: 118vh;
+    width: 60%;
+
+  }
+  
+  .about p{
+    text-align: center;
+    font-size: 42px;
+    color: #f6ecde;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .hi-txt {
+   
+    width:60%;
+    text-align:center;
+    margin: auto;
+    font-size: 32px;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(13, 14, 13);
+    color: rgb(239, 234, 234);
+
+
+  }
+  
+
+  /* Global reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.about h1 {
-  text-align: center;
-  font-family: 'Permanent Marker', cursive;
-  color: rgb(239, 234, 234);
+
+/* General body styling - sets up the page's background, font, and center alignment */
+
+/* Container for the entire slider section including the title and slider itself */
+.background {
+    width: 100%; /* Sets the width to fill the available space */
+    height: 100%; /* Sets the height to fill the available space */
+    position: relative; /* Allows for absolute positioning of child elements */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Aligns items in a column (vertical stack) */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+}
+.background h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 22px;
+
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+  
+
+}
+
+.port-title {
+padding: 10px;
+opacity: 90%;
+
+}
+
+.port-title p{
+    font-size: 12px;
+}
+/* Styling for the title above the slider */
+.slider-title {
+    
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 42px;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(13, 14, 13);
+    color: #f6ecde;
+}
+
+
+
+/* Main container for the slider - this holds the images and navigation buttons */
+.slider-container {
+    position: relative; /* Allows for absolute positioning of navigation buttons */
+    width: 60%; /* Sets the slider width to 60% of the parent container */
+    max-width: 800px; /* Maximum width for larger screens */
+    overflow: hidden; /* Hides the overflow content (only one image is visible at a time) */
+    border-radius: 10px; /* Rounds the corners of the slider */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    height: 450px;
+}
+
+/* Flexbox container that holds all the slides */
+.slider {
+    display: flex; /* Enables flexbox layout to line up slides horizontally */
+    transition: transform 0.4s ease-in-out; /* Smooth transition when sliding between images */
+}
+
+/* Each individual slide - takes up full width of the container */
+.slide {
+    min-width: 100%; /* Each slide takes up 100% of the slider container's width */
+    height: 450px; /* Fixed height for each slide */
+    transition: transform 0.5s ease-in-out; /* Smooth transition when slides are changed */
+}
+
+/* Ensures that images fill the slide area while maintaining aspect ratio */
+.slide img {
+    position: relative;
+    width: 100%; /* Image width matches the slide width */
+    height: 100%; /* Image height matches the slide height */
+    object-fit: cover; /* Images are scaled to cover the entire slide, cropping if necessary */
+    border-radius: 10px; /* Rounds the corners of the images to match the slider */
+}
+
+/* Common styling for both previous and next navigation buttons */
+.prev, .next {
+    position: absolute; /* Absolute positioning within the slider container */
+    top: 50%; /* Centers the button vertically */
+    transform: translateY(-50%); /* Offsets the button position by half its height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* White color for the arrow icons */
+    border: none; /* Removes default button borders */
+    width: 40px; /* Fixed width for the buttons */
+    height: 40px; /* Fixed height for the buttons */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    z-index: 10; /* Ensures buttons appear above the slider content */
+    border-radius: 50%; /* Makes the buttons round */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    display: flex; /* Enables flexbox for centering the arrow inside the button */
+    justify-content: center; /* Centers arrow horizontally */
+    align-items: center; /* Centers arrow vertically */
+    padding: 0; /* Removes any default padding */
+}
+
+/* Positioning the previous button to the left */
+.prev {
+    left: 10px; /* Positions the button 10px from the left edge */
+}
+
+/* Positioning the next button to the right */
+.next {
+    right: 10px; /* Positions the button 10px from the right edge */
+}
+
+/* Hover effect for navigation buttons */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darkens the button background on hover */
+    height: 80px;
+    width: 80px;
+}
+
+/* Container for the dot indicators below the slider */
+.dots-container {
+    position: absolute;
+    margin-top: 646px;
+    justify-content: center; /* Centers the dots horizontally */
+    align-items: center; /* Centers the dots vertically */
+    z-index: 11; /* Ensures buttons appear above the slider content */
+    margin-bottom: 1px;
+}
+
+/* Common styling for each individual dot */
+.dot {
+    height: 15px; /* Fixed height for the dots */
+    width: 15px; /* Fixed width for the dots */
+    margin: 0 5px; /* Spacing between the dots */
+    background-color: #fecfef; /* Semi-transparent white background */
+    border-radius: 50%; /* Makes the dots round */
+    display: inline-block; /* Ensures dots are inline */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    border:1px solid rgb(10, 9, 9);    
+    z-index: 11; /* Ensures buttons appear above the slider content */
+}
+
+/* Styling for the active dot - indicates the current slide */
+.dot.active {
+    background-color: #ff9a9e; /* Solid white background for the active dot */
+    z-index: 11;
+}
+
+
+
+.overlay-text{
+    position: absolute;
+bottom: 22px;
+width: 80%;
+    transform: translate(13%, 10%); 
+    background-color: #000000; 
+opacity: 80%;
+color: #f6ecde;
+    padding: 10px 20px; 
+    font-size: 12px; 
+    text-align: center;
+    border-radius: 20px;
+    max-height: 312px;
+    min-height: 312px;
+    margin-bottom: 2px;
+}
+
+.overlay-text p {
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+
+    justify-content: center; /* Centers the dots horizontally */
+    align-items: center; /* Centers the dots vertically */
+min-height: 222px;
+top: 50%;
+left: 35%;
+  position: absolute;
+  margin-bottom: 122px;
+padding: auto;
+
+}
+
+.btn2 {
+    background-color: #000000;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px; 
+    cursor: pointer;
+top: 50%;
+  position: relative;
+  margin-bottom: 82px;
+  font-size: 70px;
+
+}
+.btn1{
+    background-color: #000000;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px; 
+    cursor: pointer;
+top: 50%;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.btn2:hover {
+   height: 82px;
+   width: 82px;
+   padding: 10px 10px;
+   font-size: 17px;
+}
+
+.btn1:hover {
+    height: 82px;
+    width: 82px;
+    padding: 10px 10px;
+    font-size: 17px;
  }
 
-.back-drop {
-  height: 822px;
-  border-radius: 23px;
-  overflow: hidden;
-  background-image: url("reciepecopy.png");
 
-}
 
-.projects {
-  padding: 22px;
-}
-.back-frem {
-  width: 100%;
-  height: 80rem;
-  border-radius: 23px;
-  overflow: hidden;
-  display: flex;
-  float: center;
-  align-items: center;
-}
-  
-.back-frem .back-chang {
-  margin: 2px;
-  height: 221px;
-  width: 100%;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 23px;
-  position: relative;
-}
 
-img {
-    background-repeat: no-repeat;
-}
 
-.back-frem .back-chang img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-repeat: no-repeat;
-}
-  
-.btn {
-  font-family: 'Permanent Marker', cursive;
-  align-content: center;
-  position: absolute;
-  bottom: 2px;
-  right: 222px;
-  background-color: #f6ecde;
-  color:#0e0d0d;
 
-  height: 92px;
-  width: 92px;
-  cursor: pointer;
-  visibility: hidden;
-}
 
-.btn2 {
-  font-family: 'Permanent Marker', cursive;
-  align-content: center;
-  position: absolute;
-  bottom: 2px;
-  right: 122px;
-  background-color: #f6ecde;
-  color:#0f0f0f;
 
-  height: 92px;
-  width: 92px;
-  cursor: pointer;
-  visibility: hidden;
+
+
+
+
+
+
+
+  .contact {
+    height: 70vh;
   }
+  
+  .contact p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 42px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    color: #f6ecde;
+    text-align: center;
 
-
-
+  }
     
-.back-frem .back-chang:hover {
-  margin-bottom: 312px;
-  height: 535px;
-  width: 450%;
-  border: #fff 3px;
-}
-
-.front {
-  font-size: 12px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  background-color: antiquewhite;
-  font-family: 'Permanent Marker', cursive;
-  padding: 2px;
-}
-
-.back-chang:hover .front {
-  visibility: hidden;
-}
-
-.back-chang {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
-.html-logo {
-      height: 43px;
-      width: 83px;
-  }
-  
-  .css-logo {
-      height: 43px;
-      width: 83px;
-  }
-  
-  .jscript-logo {
-      height: 43px;
-      width: 83px;
-  }
-  
-.img__description {
-  position: absolute;
-  font-family: 'Permanent Marker', cursive;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  overflow: hidden;
-  left: 0;
-  right: 0;
-  background-color: #f6ecde;
-  padding: 2px;
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-  height: 252px;
-  border-radius: 22px;
-  transition: opacity .2s, visibility .2s;
-}
-
-.img__description:hover {
-  pointer-events: none;
-}
-  
-.back-chang:hover .img__description {
-  visibility: visible;
-  opacity: 1;
-}
-
-.back-chang:hover .btn  {
-  visibility: visible;
-  opacity: 1;
-}
-
-.back-chang:hover .btn2  {
-  visibility: visible;
-  opacity: 1;
-}
-
-.about-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hi-pic {
-  border-radius: 50%;
-  background-color:#f6ecde;
-  width: 372px;
-  border: 1px solid #080808;
-  z-index: 2;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-}
-
-.hi-pic:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
-  
-.about {
-  height: 118vh;
-}
-
-.about h1{
-  font-size: 42px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-  color: rgb(239, 234, 234);
-}
-
-.hi-txt {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 40px;
-  text-align: right;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: rgb(13, 14, 13);
-  color: rgb(239, 234, 234);
-}
-
-.projects h1{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 42px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-  color: #f6ecde;
-  text-align: center;
-}
-
-.contact {
-  height: 70vh;
-}
-
-.contact h1{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 42px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-  color: #f6ecde;
-  text-align: center;
-}
-  
-.socials {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-gap: 20px; 
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: auto;
-}
-
-.location img {
-  height: 212px;
-  display: inline-block;
-}
-
-.location p {
-  font-size: 22px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color: #f6ecde;
-  text-align: center;
-}
-
-.linkedin img {
-  height: 212px;
-  display: inline-block;
- 
-}
-
-.linkedin img:hover {
-  height: 296px;
-  content: url(linkedin2.png);
-  border: 3px dashed #080808;
-  border-radius: 50%;
- 
-}
-
-
-.github img {
-  height: 212px;
-  display: inline-block
-}
-  
-.github img:hover {
-  height: 296px;
-  content: url(gitlogo2.png);
-  border: 3px dashed #080808;
-  border-radius: 50%;
-}
-
-.email img {
-  height: 212px;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.email p {
-  font-size: 22px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color: #f6ecde;
-  text-align: center;
-  text-transform: lowercase;
-}
-      
-.email img:hover {
-  height: 296px;
-  content: url(email2.png);
-  border: 3px dashed #080808;
-  border-radius: 50%;
-}
-
-
-@media (max-width:600px) {
-      .btn {
-  height: 22px;
-  width: 22px;
-}
-
-.btn2 {
-  height: 22px;
-  width: 22px;
-  }
-  .img__description {
-  font-size:10px;
-      height: 272px;
-  }
-  .joecv h1 {
-  font-size: 20px;
-  }
-  .hi-txt {
-    font-size:28px;
-  }
   .socials {
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-    overflow:hidden;
+    width: 60%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 20px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+  }
+  
+  .location img {
+    height: 212px;
+    display: inline-block;
+  }
+  
+  .location p {
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #f6ecde;
+    text-align: center;
+  }
+  
+  .linkedin img {
+    height: 212px;
+    display: inline-block;
+    color: #000000;
+   
+  }
+  
+  .linkedin img:hover {
+    height: 212px;
+    content: url(images/linkedin2.png);
+   
+   
+  }
+  
+  
+  .github img {
+    height: 212px;
+    display: inline-block;
+    color: #000000;
+  }
+    
+  .github img:hover {
+    height: 212px;
+    content: url(images/gitlogo2.png);
 
   }
-.linkedin2 {
-  width:62px;
-  height:62px;
-}
-.github2{
-  width:62px;
-  height:62px;
-}
-.email2 {
-  width:62px;
-  height:62px;
-}
-.linkedin2 {
-  width: 62px;
-  height: 62px;
-}
+  
+  
+  .email img {
+    height: 212px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .email img:hover {
+    height: 212px;
+    content: url(images/email2.png);
+  }
 
-.git2 {
-  width: 62px;
-  height: 62px;
-}
-.email2 {
-  width: 62px;
-  height: 62px;
-}
+        
 
-.writing {
-  margin-top: 184px;
-  font-size: 38px;
-  border: none;
-}
-.about {
-  height: 1114px;
-}
-.top {
+  
+  @media (max-width:600px) {
+    .navbar {
+        width: 100%;
+    }
+    .slider-container {
+        width: 100%;
+    }
+    .background {
+        width: 100%;
+    }
+        .btn {
+    height: 12px;
+    width: 12px;
+  }
+  .port-title p{
+    font-size: 12px;
+  }
+  .btn2 {
+    height: 12px;
+    width: 12px;
+    }
+    .img__description {
+    font-size:10px;
+        height: 272px;
+    }
+    .joecv h1 {
+    font-size: 20px;
+    }
+    .hi-txt {
+      font-size:10px;
+      width: 100%;
+    }
+    .socials {
+      display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+      overflow:hidden;
+  
+    }
 
-  height: 582px;
-}
-
-.navbar a {
-  font-size:8px;
-}
-}
+  .email2 {
+    width:32px;
+    height:32px;
+  }
+  .linkedin2 {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .git2 {
+    width: 32px;
+    height: 32px;
+  }
+ 
+  
+  .writing {
+    margin-top: 184px;
+    font-size: 28px;
+    border: none;
+  }
+  .about {
+    height: 1514px;
+    font-size: 8px;
+  }
+  .top {
+  
+    height: 582px;
+  }
+  
+  .navbar a {
+    font-size:2px;
+    padding: 0px;
+    width: 100%;
+  }
+  }
+  
