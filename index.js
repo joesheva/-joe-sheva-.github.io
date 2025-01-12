@@ -6,6 +6,20 @@ window.onscroll = function() {scrollFunction()};
 
 
 function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+
+        document.getElementById("text").style.fontsize = "5px";
+            document.getElementById("text1").style.fontsize = "5px";
+            document.getElementById("text2").style.fontsize = "5px";
+            document.getElementById("text3").style.fontsize = "5px";
+      
+       
+    
+      
+      } else {
+       
+       
+      }
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
 
         document.getElementById("hi-pic").style.height = "325px";
