@@ -6,20 +6,6 @@ window.onscroll = function() {scrollFunction()};
 
 
 function scrollFunction() {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-
-        document.getElementById("text").style.fontsize = "5px";
-            document.getElementById("text1").style.fontsize = "5px";
-            document.getElementById("text2").style.fontsize = "5px";
-            document.getElementById("text3").style.fontsize = "5px";
-      
-       
-    
-      
-      } else {
-       
-       
-      }
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
 
         document.getElementById("hi-pic").style.height = "325px";
@@ -30,6 +16,54 @@ function scrollFunction() {
       } else {
         document.getElementById("hi-pic").style.height = "350px";
         document.getElementById("hi-pic").style.width = "350px";
+       
+      }
+      if (document.body.scrollTop >90 || document.documentElement.scrollTop > 90) {
+
+
+        document.getElementById("text").style.color = "black";
+    
+      
+      } else {
+       
+        document.getElementById("text").style.color = "#f6ecde";
+  
+       
+      }
+      if (document.body.scrollTop >650 || document.documentElement.scrollTop > 650) {
+
+
+        document.getElementById("text1").style.color = "black";
+    
+      
+      } else {
+       
+        document.getElementById("text1").style.color = "#f6ecde";
+  
+       
+      }
+      if (document.body.scrollTop >2105 || document.documentElement.scrollTop > 2105) {
+
+
+        document.getElementById("text2").style.color = "black";
+    
+      
+      } else {
+       
+        document.getElementById("text2").style.color = "#f6ecde";
+  
+       
+      }
+      if (document.body.scrollTop >2800 || document.documentElement.scrollTop > 2800) {
+
+
+        document.getElementById("text3").style.color = "black";
+    
+      
+      } else {
+       
+        document.getElementById("text3").style.color = "#f6ecde";
+  
        
       }
       if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
