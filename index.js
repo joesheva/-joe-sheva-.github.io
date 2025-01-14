@@ -42,7 +42,7 @@ function scrollFunction() {
   
        
       }
-      if (document.body.scrollTop >2600 || document.documentElement.scrollTop > 2600) {
+      if (document.body.scrollTop >2550 || document.documentElement.scrollTop >2550) {
 
 
         document.getElementById("text2").style.color = "black";
@@ -54,7 +54,7 @@ function scrollFunction() {
   
        
       }
-      if (document.body.scrollTop >3400 || document.documentElement.scrollTop > 3400) {
+      if (document.body.scrollTop >3100 || document.documentElement.scrollTop > 3100) {
 
 
         document.getElementById("text3").style.color = "black";
