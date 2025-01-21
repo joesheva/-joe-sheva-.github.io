@@ -605,6 +605,7 @@ top: 50%;
   @media (max-width:600px) {
     .navbar {
         width: 100%;
+   
     }
     .slider-container {
         width: 100%;
@@ -612,27 +613,58 @@ top: 50%;
     .background {
         width: 100%;
     }
-        .btn {
-    height: 12px;
-    width: 12px;
+    .btn2 {
+      background-color: #000000;
+      font-size: 12px;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 10px; 
+      cursor: pointer;
+  top: 50%;
+    position: relative;
+    margin-bottom: 82px;
+    font-size: 70px;
+    height: 50px;
+    width: 50px;
+  
   }
-  .port-title p{
-    font-size: 12px;
+  .btn1{
+      background-color: #000000;
+      font-size: 8px;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 10px; 
+      cursor: pointer;
+  top: 50%;
+    position: relative;
+    margin-bottom: 70px;
+    height: 50px;
+    width: 50px;
   }
-  .btn2 {
-    height: 12px;
-    width: 12px;
-    }
-    .img__description {
-    font-size:10px;
-        height: 272px;
-    }
+  
+  .btn2:hover {
+     height: 82px;
+     width: 82px;
+     padding: 10px 10px;
+     font-size: 17px;
+  }
+  
+  .btn1:hover {
+      height: 82px;
+      width: 82px;
+      padding: 10px 10px;
+      font-size: 17px;
+   }
+   
     .joecv h1 {
     font-size: 20px;
     }
-    .hi-txt {
-      font-size:10px;
+  
+    
+  .hi-txt p {
+      font-size:35px;
       width: 100%;
+      
     }
     .socials {
       display: grid;
@@ -662,18 +694,76 @@ top: 50%;
     border: none;
   }
   .about {
-  
+    height: 1514px;
     font-size: 8px;
   }
   .top {
   
     height: 582px;
   }
-  
-  .navbar a {
-    font-size:2px;
-    padding: 0px;
-    width: 100%;
+  .header {
+    padding:0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 100;   
+    background: #06060600;
+    opacity: 70%;
+    width:60%;
+    text-align:center;
+    margin: auto;
   }
+  .navbar a {
+    font-size:12px;
+    padding: 0px;
+ float: center;
+ 
+  }
+
+
+  .port-title p{
+    font-size: 13px;
+  }
+  .linkedin img {
+    height: 112px;
+    display: inline-block;
+    color: #000000;
+   
+  }
+  
+  .linkedin img:hover {
+    height: 112px;
+    content: url(linkedin2.png);
+   
+   
+  }
+  
+  
+  .github img {
+    height: 112px;
+    display: inline-block;
+    color: #000000;
+  }
+    
+  .github img:hover {
+    height: 112px;
+    content: url(gitlogo2.png);
+
+  }
+  
+  
+  .email img {
+    height: 112px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .email img:hover {
+    height: 112px;
+    content: url(email2.png);
+  }
+
   }
   
