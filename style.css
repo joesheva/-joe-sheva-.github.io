@@ -633,7 +633,7 @@ top: 50%;
       font-size: 8px;
         color: #fff;
       border-radius: 10px;
-  
+        padding: 10px 10px; 
       cursor: pointer;
   top: 50%;
     position: relative;
