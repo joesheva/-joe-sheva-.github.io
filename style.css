@@ -639,8 +639,8 @@ top: 50%;
   top: 50%;
     position: relative;
     margin-bottom: 60px;
-       height: 65px;
-      width: 65px;
+       height: 45px;
+      width: 85px;
         -webkit-text-stroke-width: 0px;
 
   }
@@ -653,8 +653,8 @@ top: 50%;
   }
   
   .btn1:hover {
-      height: 82px;
-      width: 82px;
+     height: 45px;
+      width: 85px;
       padding: 10px 10px;
       font-size: 12px;
    }
