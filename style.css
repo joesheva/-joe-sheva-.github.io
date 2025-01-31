@@ -733,6 +733,7 @@ top: 50%;
   }
   .linkedin img {
     height: 162px;
+    width:50px;
     display: inline-block;
     color: #000000;
    
@@ -740,6 +741,7 @@ top: 50%;
   
   .linkedin img:hover {
     height: 162px;
+          width:50px;
     content: url(linkedin2.png);
    
    
@@ -748,12 +750,14 @@ top: 50%;
   
   .github img {
     height: 162px;
+          width:50px;
     display: inline-block;
     color: #000000;
   }
     
   .github img:hover {
     height: 162px;
+          width:50px;
     content: url(gitlogo2.png);
 
   }
@@ -761,12 +765,14 @@ top: 50%;
   
   .email img {
     height: 162px;
+          width:50px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
   .email img:hover {
     height: 162px;
+          width:50px;
     content: url(email2.png);
   }
 .h2 {
