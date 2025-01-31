@@ -634,7 +634,7 @@ top: 50%;
       font-size: 12px;
         color: #fff;
       border-radius: 10px;
-        padding: 10px 10px; 
+       text-align: center;
       cursor: pointer;
   top: 50%;
     position: relative;
@@ -655,7 +655,7 @@ top: 50%;
   .btn1:hover {
      height: 45px;
       width: 85px;
-      padding: 10px 10px;
+ 
       font-size: 12px;
    }
    
