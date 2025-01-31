@@ -732,14 +732,14 @@ top: 50%;
     font-size: 12px;
   }
   .linkedin img {
-    height: 112px;
+    height: 162px;
     display: inline-block;
     color: #000000;
    
   }
   
   .linkedin img:hover {
-    height: 112px;
+    height: 162px;
     content: url(linkedin2.png);
    
    
@@ -747,26 +747,26 @@ top: 50%;
   
   
   .github img {
-    height: 112px;
+    height: 162px;
     display: inline-block;
     color: #000000;
   }
     
   .github img:hover {
-    height: 112px;
+    height: 162px;
     content: url(gitlogo2.png);
 
   }
   
   
   .email img {
-    height: 112px;
+    height: 162px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
   .email img:hover {
-    height: 112px;
+    height: 162px;
     content: url(email2.png);
   }
 .h2 {
