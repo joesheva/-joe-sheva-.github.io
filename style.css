@@ -629,7 +629,7 @@ top: 50%;
   
   }
   .btn1{
-     
+        font-family: 'Permanent Marker', cursive;
       background-color: #000000;
       font-size: 12px;
         color: #fff;
@@ -639,8 +639,8 @@ top: 50%;
   top: 50%;
     position: relative;
     margin-bottom: 70px;
-    height: 50px;
-    width: 50px;
+       height: 82px;
+      width: 82px;
         -webkit-text-stroke-width: 0px;
 
   }
@@ -656,7 +656,7 @@ top: 50%;
       height: 82px;
       width: 82px;
       padding: 10px 10px;
-      font-size: 8px;
+      font-size: 12px;
    }
    
     .joecv h1 {
@@ -665,7 +665,7 @@ top: 50%;
   
     
   .hi-txt p {
-      font-size:25px;
+      font-size:18px;
       width: 100%;
       
     }
